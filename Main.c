@@ -1,5 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
 
+
+//Funktion zur Einstellung des Boards
 void setupboard(int board[20][20])
 {
 
@@ -16,6 +19,10 @@ void setupboard(int board[20][20])
 int main()
 {
 
+    system("start cmd /k \"echo This is a separate window! && pause\"");
+
+    
+// Initialisierung des Boards und der Startposition
     int board[20][20] = {0};
     board[0][0] = 1;
     setupboard(board);
