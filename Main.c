@@ -86,3 +86,19 @@ int main()
 
     return 0;
 }
+
+/*
+void console_clear_screen()
+{
+    // runs in VS CODE, but not with CMD!
+    printf("\x1b[H\x1b[J");
+}
+
+
+void sleep_ms(int milliseconds)
+{
+    struct timespec ts;
+    ts.tv_sec = milliseconds / 1000;
+    ts.tv_nsec = (milliseconds % 1000) * 1000000;
+    nanosleep(&ts, NULL);
+}*/
